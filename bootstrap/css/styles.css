@@ -1,0 +1,20 @@
+body {
+	background-color: skyblue;
+}
+#d1 {
+	background-color: red;
+	height: 5em;
+	display: inline-block;
+}
+
+#d2 {
+	background-color: blue;
+	height: 5em;
+	display: inline-block;
+}
+
+#d3 {
+	background-color: green;
+	height: 5em;
+	display: inline-block;
+}

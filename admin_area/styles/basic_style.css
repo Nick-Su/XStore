@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  background-color: #EDEEF0;
+}
+
+#pre-header {
+	height: 3em;
+	background-color: inherit;;
+}
+#header {
+	margin-top: 0;
+  height: 4.5em;
+  background-color: #0098E5;  /*#18AEDE; */
+}
+#left_side_bar {
+  height: auto;
+  background-color: white;
+  margin-top: 3em;
+  margin-left: 2em;
+  display: inline-block;
+	background-color: inherit;
+}
+
+#content {
+  height: auto;
+  background-color: white;
+  margin-top: 3em;
+  margin-left: 2em;
+  display: inline-block;
+}
+
+#footer {
+  height: 5em;
+  background-color: white;
+  clear: both;
+  margin-top: 5em;
+}
+/*products_box */
+#products_box {
+		text-align: center;
+		margin-left: 1em;
+		margin-bottom: 1em;
+}
+#single_product {
+	width: 20em;
+	height: 26.5em;
+	float: left;
+	margin-left: 1.5em;
+	margin-top: 2.5em;
+	padding: 1em;
+	background-color: rgba(237, 238, 240, 0.55);
+}
+#single_product img {
+	margin-top: 1em;
+	positifon: absolute;
+	margin-left: em;
+	border: 1px solid white;
+}
+#pro-title {
+	height: 4em;
+	width: 100%;
+	background-color: redd;
+	vertical-align: middle;
+}
+#single_product b {
+	font-size: 22px;
+}
+.btn-wrap {
+	width: 100%;
+	height: 3em;
+	background-color: reds;
+	margin-top: 0.4em;
+}
+#single_product a:hover {
+	text-decoration: none;
+}
+//#wcrap {
+	height: 21em;
+	background-color: grefen;
+	position: absolute;
+	margin-top: -21em;
+	margin-left: -1em;
+}
+/* Product Box ends here */
+
+#c-info {
+	height: 4em;
+	background-color: white;
+	margin-top: 3em;
+	margin-left: 2em;
+}
+
+/*настройка корзины */
+.delete span {
+	position: sticky;;
+	color: red!important;
+	font-size: 22px;
+	margin-top: 0em;
+	margin-left: -0.5em;
+}
+#wtf {
+	border: 0px solid black;
+	margin-top: 2em;
+}
+#wtf tr{
+	border: 0px solid black;
+}
+#wtf td {
+	border: 0px solid black;
+}
